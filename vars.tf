@@ -1,14 +1,14 @@
 variable "project_name" {
-  type = "string"
+  type = string
 }
 variable "region" {
-  type = "string"
+  type = string
 }
 variable "zone" {
-  type = "string"
+  type = string
 }
 variable "centos_ami" {
-  type = "map"
+  type = map
   default = {
     us-west-2 = "ami-0382852e154615ca1"
 
